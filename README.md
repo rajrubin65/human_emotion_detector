@@ -1,11 +1,11 @@
 # human_emotion_detector
-IMAGE CLASSIFICATION MODEL
-    --> A sample model to identify the human emotions
-    --> It is  a deeplearning Model
-    --> The models are created using the Tensorflow librarie.
+# IMAGE CLASSIFICATION MODEL
+    # A sample model to identify the human emotions
+    # It is  a deeplearning Model
+    # The models are created using the Tensorflow librarie.
 
-To Run the code :
-    step1:
+# To Run the code :
+    # step1:
         set the enviornment
             cmd: python -m virtualenv venv
         Activate the enviornment
