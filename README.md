@@ -1,5 +1,5 @@
 # human_emotion_detector
-# IMAGE CLASSIFICATION MODEL
+# #IMAGE CLASSIFICATION MODEL
     # A sample model to identify the human emotions
     # It is  a deeplearning Model
     # The models are created using the Tensorflow librarie.
