@@ -13,7 +13,7 @@ from tensorflow.keras.models import load_model
 
 class EmotionDetect():
     def __init__(self):
-        self.data_dir = pathlib.Path(r'data')
+        self.data_dir = pathlib.Path(r'data\train')
         self.batch_size = 32
         self.img_height = 180
         self.img_width = 180

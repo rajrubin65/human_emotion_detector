@@ -16,7 +16,7 @@ class EmotionDetectEnginee():
         self.img_height = 180
         self.img_width = 180
         self.img = img
-        self.class_names = ['angry', 'happy', 'sad']
+        self.class_names = ['angry', 'disgusted', 'fearful','happy','neural','sad','surprised']
 
 
     def prediction(self):
@@ -33,10 +33,10 @@ class EmotionDetectEnginee():
         predictions = self.model.predict(img_array)
         score = tf.nn.softmax(predictions[0])
 
-        # print(
-        #     "\n.......RESULT.....\n\nThis image most likely belongs to {} with a {:.2f} percent confidence."
-        #     .format(self.class_names[np.argmax(score)], 100 * np.max(score))
-        # )
+        print(
+            "\n.......RESULT.....\n\nThis image most likely belongs to {} with a {:.2f} percent confidence."
+            .format(self.class_names[np.argmax(score)], 100 * np.max(score))
+        )
         return self.class_names[np.argmax(score)]
 
 
